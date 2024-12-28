@@ -59,19 +59,26 @@ In terms of results, our systematic evaluation showed an intersection detection 
 
 ### Demonstration Videos
 
-To see our intersection navigation system in action, watch the demonstration videos below:
+You can watch a demonstration of the intersection navigation system in action with the following GIFs:
+<p align="center">
+    <img src="media/single_duckiebot.gif" alt="Single Duckiebot Navigation" width="60%">
+    <br>
+    <em>Single Duckiebot navigating through an intersection</em>
+</p>
 
-#### Single Duckiebot
-[![Single Duckiebot Navigation](media/single_duckiebot_thumbnail.png)](media/Intersection_navigation_1.mp4)
+<p align="center">
+    <img src="media/two_duckiebots.gif" alt="Two Duckiebots Navigation" width="60%">
+    <br>
+    <em>Two Duckiebots navigating through an intersection</em>
+</p>
 
-#### Two Duckiebots
-[![Two Duckiebots Navigation](media/two_duckiebot_thumbnail.png)](media/Intersection_navigation_2.mp4)
+<p align="center">
+    <img src="media/three_duckiebots.gif" alt="Three Duckiebots Navigation" width="90%">
+    <br>
+    <em>Three Duckiebots navigating through an intersection</em>
+</p>
 
-#### Three Duckiebots
-[![Three Duckiebots Navigation](media/three_duckiebot_thumbnail.png)](media/Intersection_navigation_3.mp4)
-
-Click the images above to play the videos.
-
+For the full videos, with realistic performance, you can look in the folder `/videos` in the repository.
 
 Note: As discussed in the challenges section, the videos show the Duckiebots running on our laptops rather than the actual Duckiebots, which could have affected the real-time performance. This affected the controls sent to the Duckiebots and the camera feed, leading to some crashes and off-road occurrences. 
 Additionaly, the videos also show the sometime inaccurate lane following code, which was out of scope and given to us by the instructors, which was also an assumption made in the project.
